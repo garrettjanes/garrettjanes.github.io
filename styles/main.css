@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(248, 248, 248, 0.986);
+  }
+  
+  h1 {
+    color: maroon;
+    margin-left: 40px;
+  } 
+
+  p{
+      color:rgb(136, 127, 255)
+  }
+  h3{
+      color:blue
+  }

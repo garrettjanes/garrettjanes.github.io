@@ -1,2 +1,4 @@
 # garrettjanes.github.io
 ## this is a smaller header
+<title> Garrett's web page</title>
+<h1> hello</h1>
