@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="utf-8" />
     <title>Garrett</title>
 
     <!-- Bootstrap core CSS -->
@@ -29,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.html">Back <span class="sr-only">(current)</span></a>
           </li>
       
           
@@ -67,33 +70,23 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" >
         <div class="container" style="height: 130px;">
-          <h1 class="display-3" >P5.js sketches</h1>
-          <p style="font-size: 18px;">Here is the links to my two sketches</p>
+          <h1 class="display-3" >The time</h1>
+          <p style="font-size: 18px;">It is kinda lame as far as user interaction, drag the mouse, and click to fill, elipse challenge, but as miutes and seconts pass the color will slightly change.</p>
         </div>
       </div>
 
-     
-        <div class="container">
-          <!-- first row of columns -->
-          <div class="row" style="margin-left: 30%;">
-           
-  
-            <div class="col-md-2"style="color: rgb(0,0,250)">
-              <h2>2.2 elpise example</h2>
-              <p><a class="btn btn-secondary" href="sketch1/index.html"role="button">View details &raquo;</a></p>
-            </div>
-            
-            <div class="col-md-2"style="color: rgb(30,150,30)">
-              <h2>The last supper</h2>
-              <p><a class="btn btn-secondary" href="sketch2/index.html" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-2"style="color: rgb(40,40,40)">
-              <h2>As seconds pass</h2>
-              <p><a class="btn btn-secondary" href="sketch3/index.html" role="button">View details &raquo;</a></p>
-            </div>
-            
+      <div class="container" style="margin-left:500px;">
+        <!-- first row of columns -->
+        <div class="row" >
+
+          <div class="col-md-2">
+            <script src="sketch.js"></script>
           </div>
-        </div> <!-- end of first row -->
+          
+          
+          
+        </div>
+      </div> <!-- end of first row -->
 
       <hr>
 
@@ -101,13 +94,12 @@
 
       
 
-      <div class="container">
-        <p>Garrett Janes</p>
-      </div>
+      
       
     </main>
 
     <footer class="container">
+      <p>Garrett Janes</p>
       <p>&copy; COCC 2020-2021</p>
     </footer>
 
